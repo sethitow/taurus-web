@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="main.js"></script>
+		<link href="main.css" rel="stylesheet" media="screen" type="text/css">
+		<title>Taurus</title>
+	</head>
+	<body>
+
+
+<div class="wrapper container-fluid" id="jumbotron">
+	<div id="heading-box">
+		<span id="heading-text">TAURUS</span>
+		</div>
+	<br>	
+	<div id="tagline-box">
+		<span id="tagline-text">Reliable. Bright. Safe.</span>
+		</div>
+	</div>
+
+<div class="wrapper container" id="columns">
+	<div class="row">
+		<div class="col-md-4">
+			<h1>Blinkers</h1>
+			<h3>Let cars know you're turning at the touch of a button.<h3>
+			</div>
+
+		<div class="col-md-4">
+			<h1>Auto On/Off</h1>
+			<h3>Once the bike senses it's in motion, the lights will turn on. When you get off, just walk away; they'll take care of themselves.</h3>
+			</div>
+
+		<div class="col-md-4">
+			<h1>Phone Charging</h1>
+			<h3>Low on battery after work? There's a USB charge port at the end of the handlebars for easy charging.</h3>
+			</div>
+		</div>
+	</div>
+
+<div class="wrapper container-fluid" id="minitron"></div>
+
+<div class="wrapper container" id="emailForm">
+<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6 text-center">
+			<h1>Interested?</h1>
+			<h3>Put your name and email here for updates</h3>
+		    <form>
+		    	<div class="form-group">
+		    		<input class="form-control input-md" id="nameField" type="text" placeholder="Name">
+		    		</div>
+		   		<div class="form-group">
+		   			<input class="form-control input-md" id="emailField" type="text" placeholder="Email Address">
+		   			</div>
+		    	<div class="form-group">
+		    		<button class="btn btn-default input-lg" id="submitEmail" type="submit">I'm In</button>
+		    		</div>
+		    </form>
+		    <div class="alert alert-success" id="successAlert">
+ 				<strong>Received!</strong> We'll be in touch.
+			</div>
+			<div class="alert alert-danger" id="failAlert">
+ 				<strong>Whoops!</strong> That doesn't look like an email address.
+			</div>
+		</div>
+		<div class="col-md-3"></div>
+
+</div>
+</div>
+
+</div>
+
+
+	</body>
+</html>

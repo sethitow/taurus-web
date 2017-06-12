@@ -1,0 +1,52 @@
+body{
+background-color: black;
+color: white;
+}
+
+#jumbotron{
+	background-image: url(images/bg1.jpg);
+	background-size: cover;
+	height: 100vh;
+	position:relative;
+}
+
+#heading-box{
+	display: inline-block;
+	background-color: rgb(146, 22, 46);
+	padding: .7em;
+	margin: 1em;
+}
+
+#heading-text{
+	font-size: 400%;
+	font-weight: bold;
+}
+
+#tagline-box{
+	display: inline-block;
+	background-color: black;
+	padding: .7em;
+	margin: 1em;
+	position:absolute;
+    bottom:0;
+}
+
+#tagline-text{
+	font-size: 150%;
+	font-weight: bold;
+}
+
+#minitron{
+	background-image: url(images/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 40vh;
+}
+
+#emailForm{
+	background-color: rgb(146, 22, 46);
+	margin-top: 2vh;
+	margin-bottom: 2vh;	
+	border-radius: 10px;
+
+}
